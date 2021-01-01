@@ -1,22 +1,22 @@
 {
-    "name": "dscmall/laravel-filesystem-cos",
+    "name": "anerg2046/laravel-filesystem-cos",
     "description": "A Cos storage filesystem for Laravel.",
     "require": {
         "php": "^7.1",
-        "league/flysystem": "^1.0",
-        "qcloud/cos-sdk-v5": "^2.0.0",
-        "guzzlehttp/guzzle": "^6.3"
+        "league/flysystem": "^1",
+        "qcloud/cos-sdk-v5": "^2",
+        "guzzlehttp/guzzle": "^6.3|^7"
     },
     "autoload": {
         "psr-4": {
-            "Dscmall\\Flysystem\\Cos\\": "src"
+            "anerg\\Flysystem\\Cos\\": "src"
         }
     },
     "license": "MIT",
     "extra": {
         "laravel": {
             "providers": [
-                "Dscmall\\Flysystem\\Cos\\CosStorageServiceProvider"
+                "anerg\\Flysystem\\Cos\\CosStorageServiceProvider"
             ]
         }
     }

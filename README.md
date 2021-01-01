@@ -1,4 +1,4 @@
-# Laravel filesystem COS 
+# Laravel filesystem COS
 
 [Tencent Cloud COS](https://cloud.tencent.com/product/cos) storage for Laravel
 
@@ -9,12 +9,13 @@
 # Installation
 
 ```shell
-$ composer require "dscmall/laravel-filesystem-cos" -vvv
+$ composer require "anerg2046/laravel-filesystem-cos" -vvv
 ```
 
 # Configuration
 
 1. Add a new disk to your `config/filesystems.php` config:
+
  ```php
  <?php
 
